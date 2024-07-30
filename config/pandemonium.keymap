@@ -110,7 +110,7 @@
      &none      &none       &none       &none       &none       &none       &kp HOME    &kp UP      &kp END     &kp PG_UP
 //├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 //│  LWIN     │  LALT     │  LCTRL    │  LSHIFT   │           │           │ LEFT      │ DOWN      │ RIGHT     │ PAGE DOWN │
-     &kp LWIN    &kp LALT    &kp LCTRL   &kp LSHFT   &none      &none       &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG-DN
+     &kp LWIN    &kp LALT    &kp LCTRL   &kp LSHFT   &none      &none       &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN
 //╰────┬──────┴────┬──────┴────┬──────┴────┬──────┴────┬──────┴────┬──────┴────┬──────┴─────┬─────┴─────┬─────┴─────────┬─╯
 //     │           │           │           │           │           │           │            │           │               │
           &none       &none       &none       &none       &none       &none       &none       &none       &none     
