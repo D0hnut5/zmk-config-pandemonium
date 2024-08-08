@@ -47,6 +47,18 @@ Note that this keyboard currently *requires* a Xiao BLE, as the two NFC pins are
 
 Original production files available [here](https://github.com/calvin-mcd/pandemonium/tree/0ebd15b3f84ab01ea783c1a32927fb8e13194ffd).
 
+### Matrix Transforms
+
+Since Pandemonium has multiple bottom row layout options, you can switch to one of them in your keymap to make editing a little easier. Check [`boards/shields/pandemonium/pandemonium-transforms.dtsi`](boards/shields/pandemonium/pandemonium-transforms.dtsi) for the full list of options.
+
+Select the desired layout by modifying the `chosen` node; this can be done at the top of your keymap.
+
+```dts
+chosen {
+    zmk,matrix-transform = &bigbar_transform; /* 7u spacebar */
+};
+```
+
 ## Common Questions/Problems
 
 ### There was an error and the build didn't finish.
