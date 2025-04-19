@@ -18,7 +18,5 @@
 #
 ---
 include:
-#  - board: seeeduino_xiao_ble
-#    shield: pandemonium
-  - board: seeeduino_xiao_ble                        # prospector line
-    shield: pandemonium_dongle prospector_adapter    # prospector line
+  - board: seeeduino_xiao_ble
+    shield: pandemonium
