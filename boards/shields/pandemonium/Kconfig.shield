@@ -3,3 +3,6 @@
 
 config SHIELD_PANDEMONIUM
    def_bool $(shields_list_contains,pandemonium)
+
+config SHIELD_PANDEMONIUM_DONGLE
+    def_bool $(shields_list_contains,pandemonium_dongle)
